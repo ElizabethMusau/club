@@ -1,0 +1,365 @@
+good one
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Home Page Version 1 - Universum</title>
+
+	<!-- Style CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="images/assets/favicon.png" />
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="js/ie9/html5shiv.min.js"></script>
+      <script src="js/ie9/respond.min.js"></script>
+    <![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+
+<body class="home1">
+	<div id="pageloader">
+		<div class="pageloader">
+			<div class="thecube">
+				<div class="cube c1"></div>
+				<div class="cube c2"></div>
+				<div class="cube c4"></div>
+				<div class="cube c3"></div>
+			</div>
+
+			<div class="textedit">
+				<span class="site-name">Universum</span>
+				<span class="site-tagline">HTML Education Template</span>
+			</div>	
+		</div><!-- .pageloader -->
+	</div><!-- #pageloader -->
+
+	<div id="wrapper">
+		<header id="header" class="site-header">
+			<div class="top-header">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-7 col-sm-7 col-xs-2">
+							<nav class="top-nav">
+								<span class="mobile-btn"><i class="fa fa-bars"></i></span>
+								<ul>
+									<li><a href="#">Courses</a></li>
+									<li><a href="#">Events</a></li>
+									<li><a href="#">Teachers</a></li>
+									<li><a href="#">Campus</a></li>
+									<li><a href="#">Book Store</a></li>
+								</ul>
+							</nav>
+						</div>
+
+						<div class="col-md-5 col-sm-5 col-xs-10">
+							<div class="top-right">
+								<div class="language dropdown">
+									<ul>
+										<li><a href="#">English</a>
+											<ul>
+												<li><a href="#">English</a></li>
+												<li><a href="#">France</a></li>
+												<li><a href="#">Germany</a></li>
+												<li><a href="#">Japanese</a></li>
+											</ul>
+										</li>
+									</ul>
+								</div><!-- .language -->
+
+								<div class="searchbox">
+									<form method="get" class="search-form" action="#" />
+										<label>
+											<span class="screen-reader-text">Search for:</span>
+											<input type="search" class="search-field" placeholder="Search" name="s" />
+										</label>
+										<input type="submit" class="search-submit" value="Search" />
+									</form>
+								</div><!-- .searchbox -->
+							</div><!-- .top-right -->
+						</div>
+					</div><!-- .row -->
+				</div><!-- .container -->
+			</div><!-- .top-header -->
+
+			<div class="mid-header">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4 col-sm-8 col-xs-9">
+							<div class="site-brand">
+								<a class="logo" href="index.html">
+									<img src="images/assets/logo.png" alt="Universum" />
+								</a>
+							</div><!-- .site-brand -->
+						</div>
+
+						<div class="col-md-8 col-sm-4 col-xs-3">
+							<nav class="main-menu">
+								<span class="mobile-btn"><i class="fa fa-bars"></i></span>
+								<ul>
+									<li class="current-menu-item"><a href="index.html">Home</a>
+										
+									</li>
+									<li><a href="courses.html">Courses</a>
+										<div class="sub-menu mega-menu">
+											<div class="row">
+												<div class="col-md-3">
+													<h3>Courses Pages</h3>
+													<ul>
+														<li><a href="courses.html">Courses</a></li>
+														<li><a href="courses-fullwidth.html">Courses Fullwidth</a></li>
+														<li><a href="courses-list.html">Courses List</a></li>
+														<li><a href="courses-table.html">Courses Table</a></li>
+														<li><a href="courses-table-fullwidth.html">Courses Table Fullwidth</a></li>
+													</ul>
+												</div>
+
+												<div class="col-md-3">
+													<h3>Single Courses</h3>
+													<ul>
+														<li><a href="single-course.html">Single Courses Version 1</a></li>
+														<li><a href="single-course-v2.html">Single Courses Version 2</a></li>
+														<li><a href="single-course-v3.html">Single Courses Version 3</a></li>
+													</ul>
+												</div>
+
+												<div class="col-md-3">
+													<h3>Sciences</h3>
+													<ul>
+														<li><a href="#">Biophysics</a></li>
+														<li><a href="#">Business Economics</a></li>
+														<li><a href="#">Education</a></li>
+														<li><a href="#">Computer Science</a></li>
+														<li><a href="#">Philosophy</a></li>
+													</ul>
+												</div>
+
+												<div class="col-md-3">
+													<h3>HIGHER EDUCATION</h3>
+													<ul>
+														<li><a href="#">Master of Philosophy</a></li>
+														<li><a href="#">Master of Mathematics </a></li>
+														<li><a href="#">MBA</a></li>
+														<li><a href="#">Master of Physics</a></li>
+														<li><a href="#">Population Health Sciences</a></li>
+													</ul>
+												</div>
+											</div><!-- .row -->
+										</div><!-- .mega-menu -->
+									</li>
+									<li><a href="event-grid.html">Events</a>
+										<ul class="sub-menu">
+											<li><a href="event-grid.html">Event Grid</a></li>
+											<li><a href="event-calendar.html">Event Calendar</a></li>
+											<li><a href="single-event.html">Single Event</a></li>
+										</ul>
+									</li>
+									<li><a href="shop.html">Shop</a>
+										<ul class="sub-menu">
+											<li><a href="shop.html">Shop Grid</a></li>
+											<li><a href="shop-list.html">Shop List</a></li>
+											<li><a href="shop-fullwidth.html">Shop Fullwidth</a></li>
+											<li><a href="single-product.html">Single Product Left Sidebar</a></li>
+											<li><a href="single-product-right-sidebar.html">Single Product Right Sidebar</a></li>
+											<li><a href="cart.html">Shoping Cart</a></li>
+											<li><a href="checkout.html">Checkout</a></li>
+										</ul>
+									</li>
+									<li><a href="blog.html">Blogs</a>
+										<ul class="sub-menu">
+											<li><a href="blog.html">Blog Grid</a></li>
+											<li><a href="blog-list.html">Blog List</a></li>
+											<li><a href="blog-list-v2.html">Blog List Version 2</a></li>
+											<li><a href="single.html">Single Blog</a></li>
+											<li><a href="single-v2.html">Single Blog Version 2</a></li>
+										</ul>
+									</li>
+									<li><a href="404.html">404</a></li>
+									<li><a href="about.html">About</a></li>
+									<li><a href="contact.html">Contact</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div><!-- .row -->
+				</div><!-- .container -->
+			</div><!-- .mid-header -->
+		</header><!-- .site-header -->
+
+		<div id="content" class="site-content">
+			<main id="main" class="site-main">
+				<section class="main-slider">
+					<div class="slider">
+						<div class="item">
+							<img src="images/placeholder/slider1.jpg" alt="" />
+							<div class="container">
+								<div class="slider-content">
+									<div class="desc">
+										<h2>The University of American</h2>
+										<p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.</p>
+									</div>
+									<div class="button-action">
+										<a href="#" class="button primary rounded large">Apply Now</a>
+									</div>
+								</div><!-- .slider-content -->
+							</div><!-- .container -->
+						</div><!-- .item -->
+
+						<div class="item">
+							<img src="images/placeholder/slider2.jpg" alt="" />
+							<div class="container">
+								<div class="slider-content">
+									<div class="desc">
+										<h2>Back to schools</h2>
+										<p>Knowledges obtained or developed by a learning process. Integer pharetra metus ut dolor aliquet accumsan et ut nunc. Sed nec sem sed quam suscipit aliquet. Nunc ac lorem at odio pharetra dapibus ac non justo.</p>
+									</div>
+									<div class="button-action">
+										<a href="#" class="button primary rounded large">Apply Now</a>
+									</div>
+								</div><!-- .slider-content -->
+							</div><!-- .container -->
+						</div><!-- .item -->
+
+						<div class="item">
+							<img src="images/placeholder/slider3.jpg" alt="" />
+							<div class="container">
+								<div class="slider-content">
+									<div class="desc">
+										<h2>The University of American</h2>
+										<p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.</p>
+									</div>
+									<div class="button-action">
+										<a href="#" class="button primary rounded large">Apply Now</a>
+									</div>
+								</div><!-- .slider-content -->
+							</div><!-- .container -->
+						</div><!-- .item -->
+					</div><!-- .slider -->
+				</section><!-- .main-slider -->
+
+				<section id="university-courses">
+					<div class="container">
+						<h2 class="main-title ribbon"><span>University Courses</span></h2>
+						<p class="center">Universum courses are organized based on technology and the right course for you.</p>
+						<div class="row">
+							<div class="col-md-4 col-sm-6 col-xs-6 animation-element fade-in">
+								<div class="service-box font-icon shadow">
+									<span class="icon"><i class="fa fa-university"></i></span>
+									<h3>Fine Art</h3>
+									<p>Quisque pulvinar libero dolor, quis bibendum eros euismod sit amet. Proin dapibus id diam at ullamcorper.</p>
+								</div>
+							</div>
+
+							<div class="col-md-4 col-sm-6 col-xs-6 animation-element fade-in">
+								<div class="service-box font-icon shadow">
+									<span class="icon"><i class="fa fa-calculator"></i></span>
+									<h3>Mathematics</h3>
+									<p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubiltempus et leo at auctor.</p>
+								</div>
+							</div>
+
+							<div class="col-md-4 col-sm-6 col-xs-6 animation-element fade-in">
+								<div class="service-box font-icon shadow">
+									<span class="icon"><i class="fa fa-balance-scale"></i></span>
+									<h3>Law</h3>
+									<p>Sed tempor justo nec velit efficitur, sed pharetra sem luctus. Etiam vel erat ac urna pretium vitae est</p>
+								</div>
+							</div>
+
+							<div class="col-md-4 col-sm-6 col-xs-6 animation-element fade-in">
+								<div class="service-box font-icon shadow">
+									<span class="icon"><i class="fa fa-area-chart"></i></span>
+									<h3>Economic</h3>
+									<p>Mauris molestie lectus eu libero placerat, in egestas ex dignissim. Praesent viverra varius dui id convallis</p>
+								</div>
+							</div>
+
+							<div class="col-md-4 col-sm-6 col-xs-6 animation-element fade-in">
+								<div class="service-box font-icon shadow">
+									<span class="icon"><i class="fa fa-book"></i></span>
+									<h3>History</h3>
+									<p>Curabitur vestibulum erat non massa venenatis iaculis. Morbi iaculis, sem vel luctus pulvinar dolor pharetra</p>
+								</div>
+							</div>
+
+							<div class="col-md-4 col-sm-6 col-xs-6 animation-element fade-in">
+								<div class="service-box font-icon shadow">
+									<span class="icon"><i class="fa fa-flask"></i></span>
+									<h3>Biological</h3>
+									<p>Viverra massa ut fringilla lacus semper gravida. Mauris sollicitudin tortor vel ultrices lacus porta lobortis.</p>
+								</div>
+							</div>
+						</div><!-- .row -->
+					</div><!-- .container -->
+				</section><!-- #university-courses -->
+
+				<section id="call-to-action" class="call-to-action parallax-window" data-parallax="scroll" data-image-src="images/placeholder/call-to-action.jpg">
+					<div class="container">
+						<div class="call-to-action-content">
+							<h2>University Themes</h2>
+							<div class="desc">Make Your Success a Priority</div>
+							<a href="#" class="button primary rounded large animation-element fade-left">Apply Now</a>
+							<a href="#" class="button pink rounded large animation-element fade-right">Campus Life</a>
+						</div><!-- .call-to-action-content -->
+					</div><!-- .container -->
+				</section><!-- .call-to-action -->
+
+				<section id="home-blog">
+					<div class="container">
+						<h2 class="main-title ribbon"><span>Latest News</span></h2>
+						<p class="center">Universum courses are organized based on technology and the right course for you.</p>
+
+						<div class="row">
+							<article class="col-md-4 col-sm-6 post animation-element fade-in">
+								<div class="inner-post">
+									<div class="post-thumb">
+										<a href="single.html" class="mini-zoom"><img src="images/placeholder/blog2.jpg" alt="" /></a>
+									</div><!-- .post-thumb -->
+
+									<div class="post-info">
+										<h3 class="post-title"><a href="single.html">Back to school with courses of Universum</a></h3>
+										<ul class="post-meta">
+											<li><i class="fa fa-clock-o"></i> February  10, 2016</li>
+										</ul>
+										<div class="post-desc">
+											<p>Nulla cursus augue elit, at ullamcorper urna rhoncus a. Proin ipsum tortor, gravida at convallis a, tempor sed magna</p>
+										</div><!-- .post-desc -->
+										<a href="single.html" class="link">Read more</a>
+									</div><!-- .post-info -->
+								</div><!-- .inner-post -->
+							</article>
+
+							<article class="col-md-4 col-sm-6 post animation-element fade-in">
+								<div class="inner-post">
+									<div class="post-thumb">
+										<a href="single.html" class="mini-zoom"><img src="images/placeholder/blog3.jpg" alt="" /></a>
+									</div><!-- .post-thumb -->
+
+									<div class="post-info">
+										<h3 class="post-title"><a href="single.html">Research works of students about to be start</a></h3>
+										<ul class="post-meta">
+											<li><i class="fa fa-clock-o"></i> February  10, 2016</li>
+										</ul>
+										<div class="post-desc">
+											<p>Morbi iaculis, sem vel luctus pulvinar, tortor dolor pharetra enim, porta gravida nulla turpis sed risus. In turpis ligula</p>
+										</div><!-- .post-desc -->
+										<a href="single.html" class="link">Read more</a>
+									</div><!-- .post-info -->
+								</div><!-- .inner-post -->
+							</article>
+
+							<article class="col-md-4 col-sm-6 post animation-element fade-in">
+								<div class="inner-post">
+									<div class="post-thumb">
+										<a href="single.html" class="mini-zoom"><img src="images/placeholder/blog4.jpg" alt="" /></a>
+									</div><!-- .post-thumb -->
+
+									<div class="post-info">
+										<h3 class="post-title"><a href="single.html">School euismod, arcu vel porttitor consectetu</a></h3>
+										<ul class="post-meta">
+											<li><i class="fa fa-clock-o"></i> February  10, 2016</li>
+										</ul>
+										<div clas
